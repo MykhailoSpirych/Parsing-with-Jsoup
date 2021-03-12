@@ -4,7 +4,7 @@ import org.jsoup.select.Elements;
 
 import java.io.IOException;
 
- interface Createable {
+ public  interface Createable {
     default Elements createGoods(String page1) {
         Elements goods=new Elements();
         try {
