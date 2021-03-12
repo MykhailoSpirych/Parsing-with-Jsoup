@@ -28,7 +28,7 @@ public class Goods implements Createable{
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-        System.out.println("Done.You can open the file");
+        System.out.println("Done!You can open the file");
     }
 
     private static List<String> createGoodsList(Elements elements) {
